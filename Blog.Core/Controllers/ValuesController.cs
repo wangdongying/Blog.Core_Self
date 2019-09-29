@@ -21,7 +21,9 @@ namespace Blog.Core.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+           // return Json(id);//ControllerBase除非改成继承Controller
+
+            return "value";  // return new JsonResult(id);
         }
 
         // POST api/values
