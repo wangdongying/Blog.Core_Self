@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Blog.Core.Appsettings">
+            <summary>
+             Appsettings —— appsetting.json 操作类
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Appsettings.app(System.String[])">
+            <summary>
+            封装要操作的字符
+            </summary>
+            <param name="sections"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AuthHelper.OverWrite.JwtHelper.IssueJwt(Blog.Core.AuthHelper.OverWrite.TokenModelJwt)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AuthHelper.OverWrite.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.AuthHelper.OverWrite.TokenModelJwt">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.OverWrite.TokenModelJwt.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.OverWrite.TokenModelJwt.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.OverWrite.TokenModelJwt.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Controllers.SiteLinkssController.Test(System.String)">
+            <summary>
+            测试
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Blog.Core.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            post请求api注释
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:Blog.Core.Controllers.ValuesController.PostLove(Blog.Core.Model.Love)">
+            <summary>
+            post love
+            </summary>
+            <param name="love">model实体类参数</param>
+        </member>
+    </members>
+</doc>
